@@ -193,6 +193,12 @@ android_app_import {
 }
 
 dex_import {
+	name: "com.qti.snapdragon.sdk.display",
+	owner: "motorola",
+	jars: ["proprietary/system/framework/com.qti.snapdragon.sdk.display.jar"],
+}
+
+dex_import {
 	name: "qcrilhook",
 	owner: "motorola",
 	jars: ["proprietary/system_ext/framework/qcrilhook.jar"],
