@@ -158,14 +158,13 @@ android_app_import {
 }
 
 android_app_import {
-	name: "ims",
+	name: "imssettings",
 	owner: "motorola",
-	apk: "proprietary/system_ext/priv-app/ims/ims.apk",
+	apk: "proprietary/system_ext/app/imssettings/imssettings.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
-	privileged: true,
 	system_ext_specific: true,
 }
 
@@ -178,13 +177,6 @@ android_app_import {
 		enabled: false,
 	},
 	privileged: true,
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "QtiTelephonyServicelibrary",
-	owner: "motorola",
-	jars: ["proprietary/system_ext/framework/QtiTelephonyServicelibrary.jar"],
 	system_ext_specific: true,
 }
 
